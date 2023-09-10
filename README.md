@@ -1,2 +1,7 @@
-# Uluhan M. Orhan 
-## mtm6302-capstone-orha0001
+# Capstone Project
+
+Uluhan M. Orhan
+
+040997625
+
+Project: Astronomy Picture of the Day Search
