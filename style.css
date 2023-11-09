@@ -63,16 +63,20 @@ table {
 body {
     background-color: #0F0F0E;
     color: #eee;
-    background-image: url("images/blurred_background.jpg");
-    filter: ;
+    
 }
 
+.bg-image {
+   
+}
 
 .container {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    background-image: url(images/blurred_background.jpg);
+    
 }
 
 
@@ -95,6 +99,8 @@ body {
     font-style: normal;
     padding-top: 35px;
 }
+
+
 
 
 
