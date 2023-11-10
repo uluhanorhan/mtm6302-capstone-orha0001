@@ -19,3 +19,4 @@ Part-3 Changes
 - I made the login page first. I most difficult part was making the background blurred. Then I gave up on this design.
 - I decided to make some changes on my initial design/mockup.
 - I will make the button look better and add more spice in the design.
+- I forgot to switch the branch first. When I realized I worked on the wrong branch, i moved the files to part-3.
