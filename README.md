@@ -14,3 +14,8 @@ Design Desicions Report:
  - There are two buttons on the navigation bar; "Home" and "Favourites". The Home button redirects to the Welcome Page to let users pick a new date.
  - The "Favourites" button on the navigation bar goes to the favourites page where the users can see their favourite pictures.
  - Clicking on the heart icon on a favourited picture will remove the picture from the favorites.
+
+Part-3 Changes
+- I made the login page first. I most difficult part was making the background blurred. Then I gave up on this design.
+- I decided to make some changes on my initial design/mockup.
+- I will make the button look better and add more spice in the design.
