@@ -1,0 +1,200 @@
+/* ---------- CSS RESET ----------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---------- ROOT ---------- */
+@font-face {
+    font-family: 'Redonda-compressed', sans-serif;
+    src: url(fonts/RedondaCompressedTest-Regular.otf);
+}
+
+@font-face {
+    font-family: 'redonda-condensed' sans-serif;
+    src: url(fonts/RedondaCondensedTest-Light.otf);
+}
+
+body {
+    background-color: #0F0F0E;
+    color: #eee;
+    background: url(images/blurred_background.jpg);
+    }
+
+.container {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0 100px;
+}
+
+.container a {
+    background-color: #b9885c;
+    color: white;
+    margin-left: 15px;
+    padding: 10px 40px;
+    font-family: "redonda-condensed", sans-serif;
+    text-decoration: none;
+}
+
+
+
+/* ---------- MOBILE STYLE ---------- */
+@media (max-width: 767px) {
+    .title {
+
+    }
+}
+
+/* ---------- DESKTOP STYLE ---------- */
+.text {
+    max-width: 730px;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+.title {
+    font-family: 'Redonda-compressed', sans-serif;
+    font-size: 100px;
+}
+
+.welcome p {
+    font-family: "redonda-condensed", sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: 35px;
+}
+
+.form{
+	display: flex;
+	padding-left: 70px ;
+    padding-top: 30px;
+    margin: 30px 200px;
+}
+
+/* --- content page --- */
+
+.nav-logo img{
+    max-height: 70px;
+    margin: 30px;
+}
+
+
+.nav a {
+    background-color: transparent;
+}
+
+.nav {
+    display: flex;
+    margin-left: 650px ;
+}
+.container .nav .nav-item {
+
+    text-align: center;
+    font-size: 27px;
+}
+
+.content {
+    margin: 50px 120px;
+}
+
+.content h2 {
+    font-family: "redonda-condensed", sans-serif;
+    font-size: 35px;
+    margin-left: 120px;
+}
+
+.content img {
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+.content button{
+    display: flex;
+    margin: 30px 170px;
+}
+
+.form a {
+    background-color: #b9885c;
+    color: white;
+    margin-left: 15px;
+    padding: 10px 40px;
+    font-family: "redonda-condensed", sans-serif;
+    text-decoration: none;
+}
+
+.article h1 {
+    font-family: 'Redonda-compressed', sans-serif;
+    font-size: 55px;
+}
+
+.article p {
+    font-family: "redonda-condensed", sans-serif;
+    margin-top: 20px;
+
+}
+
+.article {
+    max-width: 500px;
+    margin-left: 120px;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    order: 1;
+}
+
+.article {
+    order: 2;
+}
