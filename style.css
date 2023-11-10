@@ -63,22 +63,34 @@ table {
 body {
     background-color: #0F0F0E;
     color: #eee;
-    
-}
-
-.bg-image {
-   
-}
+    background: url(images/blurred_background.jpg);
+    }
 
 .container {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    background-image: url(images/blurred_background.jpg);
-    
+    margin: 0 100px;
 }
 
+.container a {
+    background-color: #b9885c;
+    color: white;
+    margin-left: 15px;
+    padding: 10px 40px;
+    font-family: "redonda-condensed", sans-serif;
+    text-decoration: none;
+}
+
+
+
+/* ---------- MOBILE STYLE ---------- */
+@media (max-width: 767px) {
+    .title {
+
+    }
+}
 
 /* ---------- DESKTOP STYLE ---------- */
 .text {
@@ -100,13 +112,89 @@ body {
     padding-top: 35px;
 }
 
+.form{
+	display: flex;
+	padding-left: 70px ;
+    padding-top: 30px;
+    margin: 30px 200px;
+}
+
+/* --- content page --- */
+
+.nav-logo img{
+    max-height: 70px;
+    margin: 30px;
+}
 
 
+.nav a {
+    background-color: transparent;
+}
 
+.nav {
+    display: flex;
+    margin-left: 650px ;
+}
+.container .nav .nav-item {
 
-/* ---------- MOBILE STYLE ---------- */
-@media (max-width: 767px) {
-    .title {
+    text-align: center;
+    font-size: 27px;
+}
 
-    }
+.content {
+    margin: 50px 120px;
+}
+
+.content h2 {
+    font-family: "redonda-condensed", sans-serif;
+    font-size: 35px;
+    margin-left: 120px;
+}
+
+.content img {
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+.content button{
+    display: flex;
+    margin: 30px 170px;
+}
+
+.form a {
+    background-color: #b9885c;
+    color: white;
+    margin-left: 15px;
+    padding: 10px 40px;
+    font-family: "redonda-condensed", sans-serif;
+    text-decoration: none;
+}
+
+.article h1 {
+    font-family: 'Redonda-compressed', sans-serif;
+    font-size: 55px;
+}
+
+.article p {
+    font-family: "redonda-condensed", sans-serif;
+    margin-top: 20px;
+
+}
+
+.article {
+    max-width: 500px;
+    margin-left: 120px;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    order: 1;
+}
+
+.article {
+    order: 2;
 }
