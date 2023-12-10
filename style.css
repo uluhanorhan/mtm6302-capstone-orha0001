@@ -256,6 +256,14 @@ body {
     font-family: "redonda-condensed", sans-serif;
 }
 
+.content-date > .fa-heart:active{
+    text-align: center;
+    margin-left: auto;
+    scale: 0.99;
+    font-family: "redonda-condensed", sans-serif;
+    color: rgba(218, 0, 0, 0.616);
+}
+
 a{
 	color: white;
 	font-size: 1.2rem;
@@ -326,7 +334,8 @@ i{
 }
 
 .fa-trash:active{
-	color: white;
+	color: rgba(218, 0, 0, 0.616);
+    scale: 0.99;
     }
 
 
@@ -379,11 +388,14 @@ p{
     font-family: "redonda-condensed", sans-serif;
 }
 
-
 }
 
-/* ---------- tablet style ---------- */
-@media screen and (min-width: 720px){
+
+
+
+
+/* ---------- mobile style ---------- */
+@media screen and (max-width: 720px){
 
     .title {
         font-family: 'Redonda-compressed', sans-serif;
@@ -421,4 +433,29 @@ p{
         font-family: "redonda-condensed", sans-serif;
     }
 
+    .content {
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+
+    .content-date > .fa-heart{
+        text-align: left;
+        margin-left: auto;
+        font-size: 25px;
+        font-family: "redonda-condensed", sans-serif;
+    }
+
+    .content-date > .fa-heart:active{
+        text-align: left;
+        margin-left: auto;
+        scale: 0.9;
+        font-family: "redonda-condensed", sans-serif;
+        color: rgba(218, 0, 0, 0.616);
+    }
+
+    .fa-trash:active{
+        color: rgba(218, 0, 0, 0.616);
+        scale: 0.99;
+        }
+  
 }
+
