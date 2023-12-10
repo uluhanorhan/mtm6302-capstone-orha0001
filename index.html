@@ -7,10 +7,27 @@
     <link rel="stylesheet" href="https://use.typekit.net/wej6dxf.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
         <div class="bg-image"></div>
 
         <div class="container" id="container">
+            <div class="nav-bar">
+                <div class="nav-logo">
+                    <img  src="images/NASA_logo.svg.png">
+                </div>
+                    <ul class="nav">
+                        
+                        <li class="nav-item">
+                            <a href="index.html">HOME</a>
+                        </li>
+                        
+                        <li class="nav-item" id="favorites">
+                            <a href="#">FAVORITES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
            
         <div class="text">
       
@@ -27,7 +44,7 @@
 
         <form method="post" id="form" class="form">   
             <input id="date" type="date" value="YYYY-MM-DD" min="1990-12-31" max="2023-12-31" placeholder="YYYY-MM-DD" name="date" required>
-            <a href="content.html"submit">ENTER</button></a>
+            <button type="submit">ENTER</button>
         </form>
 
          
@@ -35,10 +52,13 @@
 
          
         <main>
+            <div id="contents"></div>
 
-
-        </main>
-    </div><!--ends container-->
+            <div id="favs" class="images container"></div>
     
+        </main>
+
+    </div><!--ends container-->
+    <script src="script.js"></script>
 </body>
 </html>
